@@ -95,9 +95,6 @@ The glass morphism theme uses a neutral color palette with orange/amber accents.
 2. Update the `gradient-text` utility class in `globals.css`
 3. Modify the floating orb colors in `app/layout.tsx`
 
-### Branding
-
-Your UNCO branding assets are in `/public/images/`. Update the logo component in `Navbar.tsx` to use your actual logo SVG or image file.
 
 ### Content
 
