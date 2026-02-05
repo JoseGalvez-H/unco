@@ -30,7 +30,7 @@ export default function Footer() {
             <div>
               <h3 className="font-semibold text-lg mb-4">Navigate</h3>
               <ul className="space-y-2">
-                {['Home', 'Services', 'About', 'Research', 'Contact'].map((item) => (
+                {['Home', 'Services', 'About', 'Contact'].map((item) => (
                   <li key={item}>
                     <Link
                       href={`/${item.toLowerCase()}`}
@@ -47,11 +47,9 @@ export default function Footer() {
             <div>
               <h3 className="font-semibold text-lg mb-4">Services</h3>
               <ul className="space-y-2 text-sm text-neutral-600">
-                <li>Brand Strategy</li>
-                <li>Product Design</li>
-                <li>Development</li>
                 <li>User Research</li>
-                <li>Innovation Lab</li>
+                <li>Product Design</li>
+                <li>Software Development</li>
               </ul>
             </div>
 
@@ -71,7 +69,7 @@ export default function Footer() {
                 </li>
               </ul>
               
-              <div className="flex space-x-4 mt-6">
+              {/* <div className="flex space-x-4 mt-6">
                 {['Twitter', 'LinkedIn', 'Instagram', 'Dribbble'].map((social) => (
                   <a
                     key={social}
@@ -84,7 +82,7 @@ export default function Footer() {
                     <span className="text-xs font-bold">{social.charAt(0)}</span>
                   </a>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
 

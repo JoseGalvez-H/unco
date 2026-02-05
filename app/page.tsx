@@ -63,14 +63,14 @@ export default function Home() {
               />
             </Link>
 
-            <Link
+            {/* <Link
               href="/work"
               className="px-8 py-4 rounded-2xl text-lg font-medium text-neutral-700
                          hover:text-neutral-900 transition-all duration-300 border-2 border-transparent
                          hover:border-white/40 hover:bg-white/20"
             >
               View Our Work →
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

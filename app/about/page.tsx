@@ -99,9 +99,9 @@ export default function About() {
                 <div className="mb-32">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-5xl md:text-6xl font-bold">Meet the Team</h2>
-            <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
+            {/* <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
               The talented people behind UNCO
-            </p>
+            </p> */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
