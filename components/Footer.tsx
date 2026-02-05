@@ -61,12 +61,12 @@ export default function Footer() {
               <ul className="space-y-2 text-sm text-neutral-600">
                 <li>
                   <a href="mailto:hello@unco.agency" className="hover:text-neutral-900 transition-colors">
-                    hello@unco.agency
+                    hello@uncodesigns.com
                   </a>
                 </li>
                 <li>
                   <a href="tel:+1234567890" className="hover:text-neutral-900 transition-colors">
-                    +1 (234) 567-890
+                    +1 (206) 255-1865
                   </a>
                 </li>
               </ul>
@@ -91,7 +91,7 @@ export default function Footer() {
           {/* Bottom Bar */}
           <div className="mt-12 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-neutral-600">
-              © {currentYear} UNCO Agency. All rights reserved.
+              © {currentYear} UNCO. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-neutral-600">
               <Link href="/privacy" className="hover:text-neutral-900 transition-colors">

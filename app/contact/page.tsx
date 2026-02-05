@@ -193,7 +193,7 @@ export default function Contact() {
                     <div className="font-semibold mb-1">Email</div>
                     <a href="mailto:hello@unco.agency" 
                        className="text-neutral-600 hover:text-orange-500 transition-colors">
-                      hello@unco.agency
+                      hello@uncodesigns.com
                     </a>
                   </div>
                 </div>
@@ -210,7 +210,7 @@ export default function Contact() {
                     <div className="font-semibold mb-1">Phone</div>
                     <a href="tel:+1234567890" 
                        className="text-neutral-600 hover:text-orange-500 transition-colors">
-                      +1 (234) 567-890
+                      +1 (206) 255-1865
                     </a>
                   </div>
                 </div>
@@ -228,8 +228,8 @@ export default function Contact() {
                   <div>
                     <div className="font-semibold mb-1">Office</div>
                     <p className="text-neutral-600">
-                      123 Innovation Street<br />
-                      San Francisco, CA 94102
+                      TBD<br />
+                      Seattle, WA
                     </p>
                   </div>
                 </div>
@@ -272,11 +272,11 @@ export default function Contact() {
               <div className="space-y-3 text-neutral-600">
                 <div className="flex justify-between">
                   <span>Monday - Friday</span>
-                  <span className="font-medium">9:00 AM - 6:00 PM</span>
+                  <span className="font-medium">9:00 AM - 5:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Saturday</span>
-                  <span className="font-medium">10:00 AM - 4:00 PM</span>
+                  <span className="font-medium">Closed</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Sunday</span>

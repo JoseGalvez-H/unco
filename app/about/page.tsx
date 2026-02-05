@@ -3,28 +3,22 @@
 export default function About() {
   const team = [
     {
-      name: 'Alex Chen',
-      role: 'Founder & CEO',
-      bio: 'Visionary leader with 15+ years in digital innovation',
+      name: 'Dr. Jessica Blaney',
+      role: 'Founder & Researcher',
+      bio: 'PhD in psychology and over 10 years experience conducting research.',
       color: 'from-orange-400 to-amber-500'
     },
     {
-      name: 'Sarah Mitchell',
-      role: 'Creative Director',
-      bio: 'Award-winning designer passionate about user experience',
+      name: 'Phirom Yim',
+      role: 'Founder & UX/UI Designer',
+      bio: 'Strategic designer with over 10 plus years of experience building brand identities.',
       color: 'from-purple-400 to-pink-500'
     },
     {
-      name: 'Marcus Thompson',
-      role: 'Head of Engineering',
-      bio: 'Tech architect building scalable solutions',
+      name: 'Jose Galvez Hernandez',
+      role: 'Founder & Engineer',
+      bio: 'Software engineer with over 5 years of experience programming. ',
       color: 'from-blue-400 to-cyan-500'
-    },
-    {
-      name: 'Elena Rodriguez',
-      role: 'Research Lead',
-      bio: 'Data scientist uncovering meaningful insights',
-      color: 'from-green-400 to-emerald-500'
     },
   ];
 
@@ -81,7 +75,7 @@ export default function About() {
             <h2 className="text-4xl md:text-5xl font-bold mb-8">Our Story</h2>
             
             <p className="text-lg text-neutral-600 leading-relaxed">
-              Founded in 2016, UNCO emerged from a simple observation: too many digital products 
+              Founded in 2025, UNCO emerged from a simple observation: too many digital products 
               were being built without truly understanding the people who would use them. We set out 
               to change that.
             </p>
@@ -98,6 +92,40 @@ export default function About() {
               analytical rigor, ensuring that every solution we create is both innovative and grounded 
               in real user needs.
             </p>
+          </div>
+        </div>
+
+                {/* Team */}
+                <div className="mb-32">
+          <div className="text-center mb-16 space-y-4">
+            <h2 className="text-5xl md:text-6xl font-bold">Meet the Team</h2>
+            <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
+              The talented people behind UNCO
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {team.map((member, index) => (
+              <div
+                key={index}
+                className="glass-card p-8 text-center hover:scale-105 transition-all duration-500 group"
+              >
+                <div className={`w-32 h-32 mx-auto rounded-full bg-gradient-to-br ${member.color} 
+                              mb-6 group-hover:scale-110 transition-transform duration-300
+                              flex items-center justify-center text-white text-4xl font-bold`}>
+                  {member.name.split(' ').map(n => n[0]).join('')}
+                </div>
+                <h3 className="text-xl font-bold mb-2">{member.name}</h3>
+                <p className="text-orange-500 font-medium mb-3">{member.role}</p>
+                <p className="text-sm text-neutral-600">{member.bio}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <a href="/contact" className="glass-button inline-block">
+              Join Our Team
+            </a>
           </div>
         </div>
 
@@ -124,45 +152,9 @@ export default function About() {
           </div>
         </div>
 
-        {/* Team */}
-        <div className="mb-32">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-5xl md:text-6xl font-bold">Meet the Team</h2>
-            <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
-              The talented people behind UNCO
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <div
-                key={index}
-                className="glass-card p-8 text-center hover:scale-105 transition-all duration-500 group"
-              >
-                <div className={`w-32 h-32 mx-auto rounded-full bg-gradient-to-br ${member.color} 
-                              mb-6 group-hover:scale-110 transition-transform duration-300
-                              flex items-center justify-center text-white text-4xl font-bold`}>
-                  {member.name.split(' ').map(n => n[0]).join('')}
-                </div>
-                <h3 className="text-xl font-bold mb-2">{member.name}</h3>
-                <p className="text-orange-500 font-medium mb-3">{member.role}</p>
-                <p className="text-sm text-neutral-600">{member.bio}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <p className="text-neutral-600 mb-6">
-              Plus 16 more talented designers, developers, and researchers
-            </p>
-            <a href="/contact" className="glass-button inline-block">
-              Join Our Team
-            </a>
-          </div>
-        </div>
 
         {/* Stats */}
-        <div className="glass-card p-16 mb-32 rounded-3xl">
+        {/* <div className="glass-card p-16 mb-32 rounded-3xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
             {[
               { number: '8+', label: 'Years in Business' },
@@ -178,10 +170,10 @@ export default function About() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Awards */}
-        <div className="mb-32">
+        {/* <div className="mb-32">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-5xl md:text-6xl font-bold">Recognition</h2>
             <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
@@ -207,7 +199,7 @@ export default function About() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* CTA */}
         <div className="text-center space-y-8">
